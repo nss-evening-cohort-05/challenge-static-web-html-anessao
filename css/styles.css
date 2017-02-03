@@ -12,6 +12,22 @@ font-family: 'Rock Salt', cursive;*/
 /*black/white*/
 
 /******************************
+ACROSS THE BOARD STYLES
+******************************/
+h2,
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #363636;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3rem;
+	color: #363636;
+	font-weight: bold;
+}
+
+/******************************
 HEADER MAIN STYLES
 ******************************/
 header {
@@ -36,8 +52,6 @@ h1 {
 	line-height: 1;
 }
 h2 {
-	font-family: 'Roboto', sans-serif;
-	color: #363636;
 	font-size: 1.3rem;
 }
 
@@ -66,28 +80,106 @@ article.bio {
 }
 .bio section h3 {
 	text-align: center;
-	font-family: 'Rock Salt', cursive;
-	font-size: 1rem;
-	color: #363636;
 	margin-top: 0px;
 }
 .bio section p {
 	text-align: justify;
-	font-family: 'Roboto', sans-serif;
-	color: #363636;
 }
 
+/******************************
+RESOURCES/INSPIRATION SECTION STYLING
+******************************/
 
+article.special-links {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 
+}
+.special-links section {
+	width: 47%;
+}
+ul {
+	list-style: square;
+}
+li a {
+	color: #363636;
+	line-height: 1.5;
+	font-weight: bold;
+}
+li a:active:focus:hover:visited {
+	font-weight: bold;
+	color: #7a0026;
+}
 
+/******************************
+PROFESSIONAL PORTFOLIO STYLING
+******************************/
 
+.professional-info h3 {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 3px;
+}
 
+.professional-info {
+	width: 100%;
+	background: #d7d7d7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+article.upcoming {
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: 10px;
+	padding: 10px;
+}
 
+.project-preview {
+	background-image: url(/images/swanky-home-demo.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	width: 47%;
+	height: 100px;
+	margin: auto;
+}
+.project-preview a,
+.project-preview a:active {
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-weight: bold;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.project-preview a:hover {
+	padding-top: 41px;
+	padding-bottom: 41px;
+	background-color: rgba(0, 0, 0, .5);
+}
 
+.clients {
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: 10px;
+	padding: 10px;
+}
+.clients a img {
+	width: 120px;
+	display: inline-block;
+	padding: 2%;
 
-
-
-
+}
 
 
 
