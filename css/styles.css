@@ -1,1 +1,63 @@
 /*PERSONAL WEBSITE CHALLENGE STYLES*/
+/******************************
+FONTS AND COLORS
+******************************/
+
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive;*/
+
+/*light gray: #d7d7d7;*/
+/*dark gray: #363636;*/
+/*black/white*/
+
+/******************************
+HEADER MAIN STYLES
+******************************/
+header {
+	width: 100%;
+	height: 10%;
+	background-color: #d7d7d7;
+}
+.header-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+img.logo {
+	max-height: 100px;
+	margin: 10px;
+}
+h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 3rem;
+	margin: 0;
+	line-height: 1;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: #363636;
+	font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
