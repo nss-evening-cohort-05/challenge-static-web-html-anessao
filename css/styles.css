@@ -157,6 +157,7 @@ article.upcoming {
 	text-decoration: none;
 	font-family: 'Roboto';
 	font-weight: bold;
+	font-size: .8rem;
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -181,9 +182,32 @@ article.upcoming {
 
 }
 
+/******************************
+FOOTER STYLING
+******************************/
 
-
-
-
-
+.main-footer {
+	background-color: #363636;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	display: inline-flex;
+	align-items: baseline;
+}
+.contact {
+	display: block;
+	width: 50%;
+	padding: 1%;
+	align-self: flex-start;
+}
+.connect {
+	display: block;
+	width: 50%;
+	padding: 1%;
+	align-self: flex-end;
+	text-align: right;
+}
+.main-footer a img {
+	width: 36px;
+}
 
