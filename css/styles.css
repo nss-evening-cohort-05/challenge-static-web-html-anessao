@@ -42,6 +42,40 @@ h2 {
 }
 
 
+/******************************
+BIO SECTION MAIN STYLING
+******************************/
+.main-body {
+	width: 100%;
+}
+img.profile-img {
+	max-height: 200px;
+	border-radius: 100px;
+	display: block;
+	margin: 10px auto;
+}
+article.bio {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bio section {
+	width: 47%;
+}
+.bio section h3 {
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+	font-size: 1rem;
+	color: #363636;
+	margin-top: 0px;
+}
+.bio section p {
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	color: #363636;
+}
 
 
 
