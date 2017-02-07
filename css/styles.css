@@ -191,23 +191,36 @@ FOOTER STYLING
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
-	display: inline-flex;
-	align-items: baseline;
+	display: flex;
+	padding: 1%;
+	justify-content: center;
+	font-size: 1.3rem;
 }
 .contact {
-	display: block;
-	width: 50%;
-	padding: 1%;
-	align-self: flex-start;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 .connect {
-	display: block;
-	width: 50%;
-	padding: 1%;
-	align-self: flex-end;
-	text-align: right;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
 }
 .main-footer a img {
 	width: 36px;
+	margin-left: 5px;
+}
+img.github-logo {
+	border-radius: 100%;
+}
+.contact a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.1rem;
+	margin-left: 5px;
 }
 
