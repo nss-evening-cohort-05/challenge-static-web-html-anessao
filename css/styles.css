@@ -1,0 +1,226 @@
+/*PERSONAL WEBSITE CHALLENGE STYLES*/
+/******************************
+FONTS AND COLORS
+******************************/
+
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rock Salt', cursive;*/
+
+/*light gray: #d7d7d7;*/
+/*dark gray: #363636;*/
+/*black/white*/
+
+/******************************
+ACROSS THE BOARD STYLES
+******************************/
+h2,
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #363636;
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3rem;
+	color: #363636;
+	font-weight: bold;
+}
+
+/******************************
+HEADER MAIN STYLES
+******************************/
+header {
+	width: 100%;
+	height: 10%;
+	background-color: #d7d7d7;
+}
+.header-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+img.logo {
+	max-height: 100px;
+	margin: 10px;
+}
+h1 {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 3rem;
+	margin: 0;
+	line-height: 1;
+}
+h2 {
+	font-size: 1.3rem;
+}
+
+
+/******************************
+BIO SECTION MAIN STYLING
+******************************/
+.main-body {
+	width: 100%;
+}
+img.profile-img {
+	max-height: 200px;
+	border-radius: 100px;
+	display: block;
+	margin: 10px auto;
+}
+article.bio {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bio section {
+	width: 47%;
+}
+.bio section h3 {
+	text-align: center;
+	margin-top: 0px;
+}
+.bio section p {
+	text-align: justify;
+}
+
+/******************************
+RESOURCES/INSPIRATION SECTION STYLING
+******************************/
+
+article.special-links {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.special-links section {
+	width: 47%;
+}
+ul {
+	list-style: square;
+}
+li a {
+	color: #363636;
+	line-height: 1.5;
+	font-weight: bold;
+}
+li a:active:focus:hover:visited {
+	font-weight: bold;
+	color: #7a0026;
+}
+
+/******************************
+PROFESSIONAL PORTFOLIO STYLING
+******************************/
+
+.professional-info h3 {
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 3px;
+}
+
+.professional-info {
+	width: 100%;
+	background: #d7d7d7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+article.upcoming {
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: 10px;
+	padding: 10px;
+}
+
+.project-preview {
+	background-image: url(/images/swanky-home-demo.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	width: 47%;
+	height: 100px;
+	margin: auto;
+}
+.project-preview a,
+.project-preview a:active {
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: .8rem;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.project-preview a:hover {
+	padding-top: 41px;
+	padding-bottom: 41px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.clients {
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin: 10px;
+	padding: 10px;
+}
+.clients a img {
+	width: 120px;
+	display: inline-block;
+	padding: 2%;
+
+}
+
+/******************************
+FOOTER STYLING
+******************************/
+
+.main-footer {
+	background-color: #363636;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	display: flex;
+	padding: 1%;
+	justify-content: center;
+	font-size: 1.3rem;
+}
+.contact {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.connect {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+.main-footer a img {
+	width: 36px;
+	margin-left: 5px;
+}
+img.github-logo {
+	border-radius: 100%;
+}
+.contact a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.1rem;
+	margin-left: 5px;
+}
+
